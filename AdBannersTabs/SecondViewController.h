@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIImageView *imageBanner1;
+@property (strong, nonatomic) IBOutlet UIImageView *imageBanner2;
+@property (strong, nonatomic) IBOutlet UIImageView *imageBanner3;
+- (IBAction)buttonRefreshPressed:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *buttonRefresh;
+@property (strong, nonatomic) NSArray *urlArray;
 @end
